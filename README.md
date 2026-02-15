@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RetailPulse — AI Retail Intelligence Platform
 
-## Getting Started
+RetailPulse is a lightweight AI-powered retail intelligence dashboard built to help small and medium businesses understand market demand, pricing signals, and risk trends in real time.
 
-First, run the development server:
+Instead of manually analysing charts and reports, users can explore market insights through a simple dashboard and an AI Copilot that answers natural language questions.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🌐 Live Demo
+
+https://retail-pulse-alpha.vercel.app
+
+---
+
+## 💡 What Problem Does It Solve?
+
+Retail teams often struggle to make quick decisions because market data is scattered across tools.
+Understanding demand shifts, competitor behaviour, or pricing strategy usually takes time and manual analysis.
+
+RetailPulse simplifies this by turning market signals into clear, actionable insights.
+
+---
+
+## 🚀 Features
+
+* **Overview Dashboard**
+  Quick signals like Demand Index, Market Risk, Price Strategy, and weekly trend forecasts.
+
+* **Market Intelligence**
+  Sector demand comparison and market share visualizations to understand industry movement.
+
+* **AI Copilot**
+  Ask questions like:
+
+  * “Which sector is strongest?”
+  * “Should I increase price?”
+  * “Market risk today?”
+
+  The system generates contextual insights using an AI reasoning layer.
+
+---
+
+## 🤖 Why AI?
+
+Retail decisions are rarely based on a single number.
+RetailPulse uses AI to interpret multiple signals together and generate clear explanations, helping users make faster decisions without deep technical analysis.
+
+---
+
+## 🛠️ Tech Stack
+
+Frontend:
+
+* Next.js 14 (App Router)
+* TailwindCSS
+* Recharts
+
+Backend:
+
+* Next.js API Routes
+* AI Copilot reasoning service
+
+Deployment:
+
+* Vercel Serverless Platform
+
+---
+
+## 🧱 Project Structure
+
+```
+app/        → Dashboard pages
+lib/        → AI + domain logic
+public/     → Static assets
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ▶️ Running Locally
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm install
+npm run dev
+```
 
-## Learn More
+Open http://localhost:3000
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📌 Project Goal
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+RetailPulse aims to make advanced market intelligence accessible to small businesses through a clear interface and AI-assisted decision support.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 Hackathon Submission
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project was built as part of the **AI for Bharat Challenge**, focusing on practical AI use in retail analytics and decision-making tools.
