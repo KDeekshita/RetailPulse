@@ -8,7 +8,7 @@ Instead of manually analysing charts and reports, users can explore market insig
 
 ## 🌐 Live Demo
 
-https://retail-pulse-alpha.vercel.app
+https://retail-pulse-alpha.vercel.app/dashboard
 
 ---
 
